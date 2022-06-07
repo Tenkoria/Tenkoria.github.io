@@ -5,7 +5,7 @@ var username = document.getElementById("username").value;
 var password = document.getElementById("password").value;
 if ( username == "Ricardo" && password == "1234"){
 alert ("Login successfully");
-window.location = "index.html"; 
+window.location = "https://tenkoria.github.io/index.html"; 
 return false;
 }
 else{
