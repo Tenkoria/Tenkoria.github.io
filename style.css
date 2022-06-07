@@ -1,0 +1,459 @@
+
+html, body {
+  font-family: 'Poppins';
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+@media only screen and (max-width: 768px) {
+  /* Para celulares: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+
+.cabecalho {
+  transition: 0.2s;
+  top: -3px;
+  position: fixed;
+  width: 100%;
+  background-color: #F3F3F3;
+  box-shadow: 2px 2px 4px #B7B7B7;
+  margin: 0px;
+  padding-bottom: 10px;
+  padding-top: 40px;
+  text-align: center;
+  
+  
+}
+.header{
+  background-image:url("logo.png");
+  
+}
+
+
+.img {
+  color: black;
+  position: absolute;
+  max-width: 9%;
+  left: 20px;
+  float: none;
+  display: block;
+  height: fit-content;
+  top: 1px;
+  }
+
+/* Nomes no Cabeçalho */
+.c1 {
+color: black;
+text-align: center;
+font-size: 20px;
+display: inline-block;
+text-decoration: none;
+padding-right: 86px;
+border: none;
+}
+
+a:link, a:visited, a:active {
+	text-decoration:none;
+	}
+a:hover {
+	text-decoration: none;
+	color:#000;
+	background:#72BACD;
+	}
+
+
+.c2 {
+color: black;
+text-align: center;
+font-size: 20px;
+display: inline-block;
+text-decoration: none;
+padding-right: 86px;
+ 
+
+}
+
+.c3 {
+color: black;
+text-align: center;
+font-size: 20px;
+display: inline-block;
+text-decoration: none;
+padding-right: 86px;
+border: none;
+}
+
+.c4 {
+color: black;
+text-align: right;
+font-size: 20px;
+display: inline-block;
+text-decoration: none;
+padding-right: 86px;
+border: none;
+}
+
+.fa fa-sign-in {
+  max-width: 4%;
+  position: absolute;
+  right: 30px;
+  display: inline-block;
+  border:none;
+  float: none;
+  top: 9px;
+}
+
+/*Conteúdo da Página*/
+
+.h2 { 
+  text-align:center;
+width: 711px;
+height: 124px;
+top: 2500px;
+background: #94A9B9;
+border-radius: 15px;
+display: block;
+}
+
+  
+
+.p{
+text-align: center;
+padding-right: 100px;
+padding-left: 100px;
+
+}
+
+
+
+.p2{
+font-size: 20px;
+text-align: center;
+width: 1330px;
+height: 50px;
+top: 550px;
+background: #72BACD;
+border-radius: 7px;
+}
+
+/* Imagens com legendas */
+
+.ref{
+width: 270px;
+height: 221px;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 7px;
+}
+
+.caption{
+caption-side: center;
+display: inline-block;
+position: absolute;
+vertical-align: middle;
+left: 325px;
+width: 384px;
+}
+
+.ref2{
+width: 270px;
+height: 221px;
+top: 744px;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 7px;
+margin-left: 290px;
+}
+
+.caption2{
+caption-side: center;
+display: inline-block;
+position: absolute;
+vertical-align: middle;
+left: 990px;
+width: 384px;
+}
+
+.ref3{
+width: 270px;
+height: 221px;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 7px;
+}
+
+.caption3{
+caption-side: center;
+display: inline-block;
+position: absolute;
+vertical-align: middle;
+left: 325px;
+width: 384px;
+}
+
+.ref4{
+width: 270px;
+height: 221px;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 7px;
+  margin-left: 290px;
+}
+
+.caption4{
+caption-side: center;
+display: inline-block;
+position: absolute;
+vertical-align: middle;
+left: 990px;
+width: 384px;
+}
+
+.flex{
+  display: flex;
+}
+
+.flex > div{
+  margin: 7px;
+  padding: 5px;
+ 
+  
+}
+
+.flex2{
+  display: flex;
+}
+
+.flex2 > div{
+  margin: 10px;
+  }
+
+/*responsividade*/
+  
+@media only screen and (max-width: 700px){
+ body{
+font-size: 30px;
+ }
+  
+.cabecalho {
+  transition: 0.2s;
+  top: -1px;
+  position: fixed;
+  width: 100%;
+  background-color: #F3F3F3;
+  box-shadow: 2px 2px 4px #B7B7B7;
+  margin: 4px;
+  padding-bottom: 5px;
+  padding-top: 60px;
+  text-align: center;
+  
+  
+}
+.header{
+  background-image:url("logo.png");
+  
+}
+
+
+.img {
+  width: 20%;
+  color: black;
+  position: absolute;
+  max-width: 100%;
+  left: 10px;
+  float: none;
+  display: block;
+  height: fit-content;
+  top: 1px;
+  }
+
+/* Nomes no Cabeçalho */
+.c1 {
+color: black;
+text-align: center;
+font-size: 40px;
+display: inline-block;
+text-decoration: none;
+padding-right: 43px;
+border: none;
+}
+
+a:link, a:visited, a:active {
+	text-decoration:none;
+	}
+a:hover {
+	text-decoration: none;
+	color:#000;
+	background:#72BACD;
+	}
+
+
+.c2 {
+color: black;
+text-align: center;
+font-size: 40px;
+display: inline-block;
+text-decoration: none;
+padding-right: 50px;
+ 
+
+}
+
+.c3 {
+color: black;
+text-align: center;
+font-size: 40px;
+display: inline-block;
+text-decoration: none;
+padding-right: 60px;
+border: none;
+}
+
+.c4 {
+color: black;
+text-align: right;
+font-size: 40px;
+display: inline-block;
+text-decoration: none;
+padding-right: 30px;
+border: none;
+}
+
+.fa fa-sign-in {
+  max-width: 8%;
+  position: absolute;
+  right: 10px;
+  display: inline-block;
+  border:none;
+  float: none;
+  top: 4.5px;
+}
+
+/*Conteúdo da Página*/
+
+.h2 { 
+font-size: 50px;
+text-align:center;
+width: 1500px;
+height: 150px;
+top: 250px;
+background: #94A9B9;
+border-radius: 15px;
+display: block;
+padding: 1px;
+}
+
+  
+
+.p{
+text-align: center;
+padding-right: 1px;
+padding-left: 1px;
+width: 1500px;
+}
+
+
+
+.p2{
+font-size: 40px;
+text-align: center;
+width: 1500px;
+height: 60px;
+top: 550px;
+background: #72BACD;
+border-radius: 7px;
+}
+
+/* Imagens com legendas */
+
+.ref{
+text-align: center;
+width: 470px;
+height: 421px;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 7px;
+}
+
+.caption{
+caption-side: center;
+display: inline-block;
+position: absolute;
+vertical-align: middle;
+left: 100px;
+width: 384px;
+margin-top: 470px;
+}
+
+.ref2{
+width: 470px;
+height: 421px;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 7px;
+margin-left: 400px;
+margin-right: 100px;
+}
+
+.caption2{ 
+caption-side: center;
+display: inline-block;
+position: absolute;
+left: 1100px;
+width: 384px;
+margin-top: 450px;
+}
+
+.ref3{
+width: 470px;
+height: 421px;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 7px;
+margin-top: 400px;
+}
+
+.caption3{ 
+caption-side: center;
+display: inline-block;
+position: absolute;
+vertical-align: middle;
+left: 100px;
+width: 384px;
+margin-top: 840px;
+}
+
+.ref4{
+width: 470px;
+height: 421px;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 7px;
+margin-left: 400px;
+margin-top: 400px;
+}
+
+.caption4{
+caption-side: center;
+display: inline-block;
+position: absolute;
+width: 384px;
+left: 1100px;
+margin-top: 840px;
+}
+
+
+.flex{
+  display: flex;
+}
+
+.flex > div{
+  margin: 10px;
+  padding: 0px;
+  
+}
+
+
+.flex2{
+  display: flex;
+}
+
+.flex2 > div{
+  margin: 10px;
+  }
+}
