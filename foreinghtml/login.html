@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>replit</title>
+  <link href="login.css" rel="stylesheet" type="text/css" />
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+</head>
+
+<body>
+  <div class="container">
+    <div class="container-login">
+      <div class="wrapper-login">
+        <form class="login-form">
+          <span class="login-form-title">
+            Faça o Login
+          </span>
+
+          <form id="form_id" method="post" name="myform">
+
+            <div class="wrap-input margin-top-35 margin-bottom-35">
+
+              
+              <input type="text" name="username" id="username" class="input-form" />
+              <span class="focus-input-form" data-placeholder="Username"></span>
+            </div>
+            
+             <div class="wrap-input  margin-bottom-35">
+
+           
+            <input type="password" name="password" id="password" class="input-form" />
+               <span class="focus-input-form" data-placeholder="Senha"></span>
+          </div>
+
+            <div class="container-login-form-btn">
+            <input type="button" value="Login" id="submit" onclick="validate()" class="login-form-btn" />
+              </div>
+          </form>
+
+        </form>
+        <ul class="login-utils">
+          <li class="margin-to-8 margin-bottom-8">
+            <span class="text1">
+              Esqueceu sua conta?
+            </span>
+            <a href="#">
+              User: Ricardo Senha: 1234
+            </a>
+          </li>
+        </ul>
+        </form>
+      </div>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+
+</html>
