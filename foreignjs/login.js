@@ -3,7 +3,7 @@ var attempt = 3; /*somente 3 tentativas*/
 function validate(){
 var username = document.getElementById("username").value;
 var password = document.getElementById("password").value;
-if ( username == "Ricardo" && password == "1234"){
+if ( username == "User" && password == "1234"){
 alert ("Login successfully");
 window.location = "/index.html"; 
 return false;
