@@ -55,7 +55,7 @@ No css da página principal teve uma tentativa de criar a responsividade do site
  body{
 font-size: 30px;
  }
-</pre
+</pre>
 
 Pra que quando a tela ficar com o width máximo de 700px mudar os padrões da tela, como o tamanho da fonte, que mudou de 20px pra 30px etc.
 
