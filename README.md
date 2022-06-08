@@ -48,3 +48,21 @@ document.getElementById("submit").disabled = true;
 return false;
 </pre>
 
+## CSS
+No css da página principal teve uma tentativa de criar a responsividade do site com o:
+<pre>
+@media only screen and (max-width: 700px){
+ body{
+font-size: 30px;
+ }
+</pre
+
+Pra que quando a tela ficar com o width máximo de 700px mudar os padrões da tela, como o tamanho da fonte, que mudou de 20px pra 30px etc.
+
+
+
+
+
+
+
+
