@@ -20,7 +20,7 @@ function validate(){
 var username = document.getElementById("username").value;
 var password = document.getElementById("password").value;
 if ( username == "User" && password == "1234"){
-alert ("Login successfully");
+alert ("Logado com sucesso");
 window.location = "/index.html"; 
 return false;
 }
@@ -36,7 +36,7 @@ Junto com a function validate foi criado o else caso o usuário erre uma vez. Se
 <pre>
 else{
 attempt --;
-alert("You have left "+attempt+" attempt;");
+alert("Você tem mais "+attempt+" tentativas;");
 </pre>
 
 E caso ele erre todas as tentativas, é desativado o user e a senha, fazendo com ele não consiga mais digitar:
